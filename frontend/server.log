@@ -1,0 +1,496 @@
+
+> cedibets-frontend@0.1.0 dev
+> next dev
+
+   ▲ Next.js 14.0.4
+   - Local:        http://localhost:3000
+   - Environments: .env.local
+
+ ⚠ Invalid next.config.js options detected: 
+ ⚠     Unrecognized key(s) in object: 'appDir' at "experimental"
+ ⚠ See more info here: https://nextjs.org/docs/messages/invalid-next-config
+ ✓ Ready in 1185ms
+ ○ Compiling / ...
+ ✓ Compiled / in 11s (12684 modules)
+
+ ⚠ metadata.metadataBase is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+Privy provider error: WagmiProviderNotFoundError: `useConfig` must be used within `WagmiProvider`.
+
+Docs: https://wagmi.sh/react/api/WagmiProvider.html
+Version: wagmi@2.16.4
+    at useConfig (webpack-internal:///(ssr)/./node_modules/wagmi/dist/esm/hooks/useConfig.js:14:24)
+    at useAccount (webpack-internal:///(ssr)/./node_modules/wagmi/dist/esm/hooks/useAccount.js:13:76)
+    at usePrivySafe (webpack-internal:///(ssr)/./hooks/usePrivySafe.ts:25:72)
+    at usePredictionMarkets (webpack-internal:///(ssr)/./hooks/usePredictionMarkets.ts:15:98)
+    at HomePage (webpack-internal:///(ssr)/./app/page.tsx:21:120)
+    at ai (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:6505)
+    at /Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11284
+    at ab (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13038)
+    at e (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at ag (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7923)
+    at /Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13014
+    at ab (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13038)
+    at ab (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:43088)
+    at e (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at ak (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49406)
+    at e (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46647)
+    at aS (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at ab (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:41727)
+    at e (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at ag (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7923)
+    at /Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13014
+    at ab (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13038)
+    at e (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at as (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7504)
+    at ab (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10920)
+    at e (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at ag (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7923)
+    at /Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13014
+    at ab (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13038)
+    at e (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at as (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7504)
+    at ab (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10920)
+    at e (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at ag (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7923)
+    at /Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13014
+    at ab (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13038)
+    at e (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at ab (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:39511)
+    at e (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at ag (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7923) {
+  details: undefined,
+  docsPath: '/api/WagmiProvider',
+  metaMessages: undefined,
+  shortMessage: '`useConfig` must be used within `WagmiProvider`.'
+}
+Privy provider error: WagmiProviderNotFoundError: `useConfig` must be used within `WagmiProvider`.
+
+Docs: https://wagmi.sh/react/api/WagmiProvider.html
+Version: wagmi@2.16.4
+    at useConfig (webpack-internal:///(ssr)/./node_modules/wagmi/dist/esm/hooks/useConfig.js:14:24)
+    at useAccount (webpack-internal:///(ssr)/./node_modules/wagmi/dist/esm/hooks/useAccount.js:13:76)
+    at usePrivySafe (webpack-internal:///(ssr)/./hooks/usePrivySafe.ts:25:72)
+    at usePredictionMarkets (webpack-internal:///(ssr)/./hooks/usePredictionMarkets.ts:15:98)
+    at HomePage (webpack-internal:///(ssr)/./app/page.tsx:21:120)
+    at ai (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:6505)
+    at /Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11284
+    at ab (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13038)
+    at e (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at ag (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7923)
+    at /Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13014
+    at ab (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13038)
+    at ab (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:43088)
+    at e (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at ak (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49406)
+    at e (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46647)
+    at aS (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at ab (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:41727)
+    at e (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at ag (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7923)
+    at /Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13014
+    at ab (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13038)
+    at e (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at as (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7504)
+    at ab (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10920)
+    at e (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at ag (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7923)
+    at /Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13014
+    at ab (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13038)
+    at e (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at as (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7504)
+    at ab (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10920)
+    at e (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at ag (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7923)
+    at /Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13014
+    at ab (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13038)
+    at e (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at ab (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:39511)
+    at e (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at ag (/Users/gyingo/cedibets/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7923) {
+  details: undefined,
+  docsPath: '/api/WagmiProvider',
+  metaMessages: undefined,
+  shortMessage: '`useConfig` must be used within `WagmiProvider`.'
+}
+ ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⨯ node_modules/wagmi/dist/esm/hooks/useConfig.js (10:14) @ useConfig
+ ⨯ WagmiProviderNotFoundError: `useConfig` must be used within `WagmiProvider`.
+
+Docs: https://wagmi.sh/react/api/WagmiProvider.html
+Version: wagmi@2.16.4
+    at usePredictionMarkets (./hooks/usePredictionMarkets.ts:20:89)
+    at HomePage (./app/page.tsx:21:120)
+null
+ ⨯ node_modules/wagmi/dist/esm/hooks/useConfig.js (10:14) @ useConfig
+ ⨯ WagmiProviderNotFoundError: `useConfig` must be used within `WagmiProvider`.
+
+Docs: https://wagmi.sh/react/api/WagmiProvider.html
+Version: wagmi@2.16.4
+    at usePredictionMarkets (./hooks/usePredictionMarkets.ts:20:89)
+    at HomePage (./app/page.tsx:21:120)
+null
+ ✓ Compiled in 636ms (6450 modules)
+ ✓ Compiled in 1302ms (12661 modules)
+
+ ⚠ metadata.metadataBase is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⨯ node_modules/wagmi/dist/esm/hooks/useConfig.js (10:14) @ useConfig
+ ⨯ WagmiProviderNotFoundError: `useConfig` must be used within `WagmiProvider`.
+
+Docs: https://wagmi.sh/react/api/WagmiProvider.html
+Version: wagmi@2.16.4
+    at usePredictionMarkets (./hooks/usePredictionMarkets.ts:20:89)
+    at HomePage (./app/page.tsx:21:120)
+null
+ ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ✓ Compiled in 1036ms (12673 modules)
+
+ ⚠ metadata.metadataBase is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ ⚠ Unsupported metadata viewport is configured in metadata export in /?_rsc=1xuj0. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /?_rsc=1xuj0. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⨯ node_modules/wagmi/dist/esm/hooks/useConfig.js (10:14) @ useConfig
+ ⨯ WagmiProviderNotFoundError: `useConfig` must be used within `WagmiProvider`.
+
+Docs: https://wagmi.sh/react/api/WagmiProvider.html
+Version: wagmi@2.16.4
+    at usePredictionMarkets (./hooks/usePredictionMarkets.ts:20:89)
+    at HomePage (./app/page.tsx:21:120)
+null
+ ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⨯ node_modules/wagmi/dist/esm/hooks/useConfig.js (10:14) @ useConfig
+ ⨯ WagmiProviderNotFoundError: `useConfig` must be used within `WagmiProvider`.
+
+Docs: https://wagmi.sh/react/api/WagmiProvider.html
+Version: wagmi@2.16.4
+    at usePredictionMarkets (./hooks/usePredictionMarkets.ts:20:89)
+    at HomePage (./app/page.tsx:21:120)
+null
+ ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ✓ Compiled in 829ms (12673 modules)
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+
+ ⚠ metadata.metadataBase is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⨯ node_modules/wagmi/dist/esm/hooks/useConfig.js (10:14) @ useConfig
+ ⨯ WagmiProviderNotFoundError: `useConfig` must be used within `WagmiProvider`.
+
+Docs: https://wagmi.sh/react/api/WagmiProvider.html
+Version: wagmi@2.16.4
+    at usePredictionMarkets (./hooks/usePredictionMarkets.ts:20:89)
+    at HomePage (./app/page.tsx:21:120)
+null
+ ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⨯ node_modules/wagmi/dist/esm/hooks/useConfig.js (10:14) @ useConfig
+ ⨯ WagmiProviderNotFoundError: `useConfig` must be used within `WagmiProvider`.
+
+Docs: https://wagmi.sh/react/api/WagmiProvider.html
+Version: wagmi@2.16.4
+    at usePredictionMarkets (./hooks/usePredictionMarkets.ts:20:89)
+    at HomePage (./app/page.tsx:21:120)
+null
+ ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ✓ Compiled in 2.2s (12659 modules)
+ ✓ Compiled in 774ms (12659 modules)
+
+ ⚠ metadata.metadataBase is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ✓ Compiled in 1752ms (12673 modules)
+
+ ⚠ metadata.metadataBase is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ○ Compiling /not-found ...
+ ✓ Compiled /not-found in 3.8s (12680 modules)
+
+ ⚠ metadata.metadataBase is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ ⚠ Unsupported metadata viewport is configured in metadata export in /logo.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /logo.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /logo.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /logo.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /?_rsc=1xuj0. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /?_rsc=1xuj0. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /logo.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /logo.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /logo.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /logo.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /logo.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /logo.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /logo.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /logo.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ✓ Compiled in 1322ms (12661 modules)
+
+ ⚠ metadata.metadataBase is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ✓ Compiled in 1143ms (12675 modules)
+
+ ⚠ metadata.metadataBase is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ ⚠ Unsupported metadata viewport is configured in metadata export in /?_rsc=1xuj0. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /?_rsc=1xuj0. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ○ Compiling /dashboard ...
+ ✓ Compiled /dashboard in 2.9s (12677 modules)
+
+ ⚠ metadata.metadataBase is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ ⚠ Unsupported metadata viewport is configured in metadata export in /dashboard?_rsc=2kyzq. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /dashboard?_rsc=2kyzq. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /dashboard. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /dashboard. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ○ Compiling /not-found ...
+ ✓ Compiled /not-found in 810ms (12682 modules)
+
+ ⚠ metadata.metadataBase is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ ⚠ Unsupported metadata viewport is configured in metadata export in /logo.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /logo.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /logo.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /logo.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /how-it-works. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /how-it-works. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /how-it-works. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /how-it-works. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /logo.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /logo.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /logo.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /logo.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /logo.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /logo.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /logo.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /logo.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ○ Compiling /readonly ...
+ ✓ Compiled /readonly in 649ms (12688 modules)
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+
+ ⚠ metadata.metadataBase is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ ⚠ Unsupported metadata viewport is configured in metadata export in /readonly. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /readonly. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /logo.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /logo.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /logo.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /logo.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /logo.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /logo.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /logo.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /logo.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /dashboard. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /dashboard. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /logo.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /logo.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /logo.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /logo.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /logo.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /logo.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /logo.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /logo.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /logo.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /logo.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /logo.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /logo.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /dashboard. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /dashboard. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /logo.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /logo.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /logo.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /logo.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /how-it-works. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /how-it-works. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /how-it-works. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /how-it-works. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /logo.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /logo.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /logo.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /logo.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /logo.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /logo.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /logo.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /logo.png. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
