@@ -1,14 +1,14 @@
-# Cedibets Frontend
+# Cedibets Frontend (Prediction Markets)
 
-A Next.js frontend application for the Cedibets fuel price protection platform. This application provides a simple, mobile-first interface for users in Ghana to purchase and manage fuel price insurance policies.
+Next.js frontend for a binary prediction market platform (YES/NO tokens). Users in Ghana can trade on outcomes like GHS/USD level and national fuel prices. Sign in with email/phone via Privy; no explicit wallet connection in the primary flow.
 
 ## 🚀 Features
 
 - **Seamless Authentication**: Email/phone login via Privy (no wallet complexity)
 - **Mobile-First Design**: Responsive interface optimized for mobile browsers
-- **Smart Contract Integration**: Direct interaction with Cedibets.sol contract
-- **Real-Time Updates**: Live policy status and wallet balance tracking
-- **User Dashboard**: Comprehensive policy management interface
+- **Prediction Market Contracts**: `MarketFactory`, `Market`, `OutcomeToken`
+- **Real-Time Market Data**: Market state, prices, and balances
+- **Portfolio View**: User positions and redemptions
 - **Embedded Wallets**: Privy-powered wallet creation and management
 
 ## 🛠 Tech Stack
@@ -64,9 +64,11 @@ Create a `.env.local` file in the frontend directory:
 # Privy Configuration
 NEXT_PUBLIC_PRIVY_APP_ID=your_privy_app_id_here
 
-# Contract Addresses (update after deployment)
-NEXT_PUBLIC_CEDIBETS_ADDRESS=0x0000000000000000000000000000000000000000
+# Factory/Token/Market Addresses (update after deployment)
+NEXT_PUBLIC_FACTORY_ADDRESS=0x0000000000000000000000000000000000000000
 NEXT_PUBLIC_USDC_ADDRESS=0x0000000000000000000000000000000000000000
+NEXT_PUBLIC_GHS_MARKET=0x0000000000000000000000000000000000000000
+NEXT_PUBLIC_FUEL_MARKET=0x0000000000000000000000000000000000000000
 
 # Optional: Custom RPC URL
 NEXT_PUBLIC_RPC_URL=https://sepolia-rollup.arbitrum.io/rpc
@@ -102,12 +104,12 @@ The app will be available at `http://localhost:3000`
 - Embedded wallet is automatically created for new users
 - No seed phrases or complex wallet management required
 
-### Insurance Purchase Flow
-1. User views current offer on home page
-2. Signs in if not authenticated
-3. Approves USDC spending (if needed)
-4. Purchases policy with one click
-5. Policy appears in dashboard immediately
+### Trading Flow (Prediction Markets)
+1. User browses markets and selects a question
+2. Signs in if not authenticated (Privy)
+3. Approves USDC (if needed)
+4. Buys YES/NO outcome tokens
+5. Positions appear in portfolio; redeem after resolution
 
 ### Dashboard Features
 - Policy overview with status indicators
@@ -117,22 +119,18 @@ The app will be available at `http://localhost:3000`
 
 ## 🔗 Smart Contract Integration
 
-The frontend interacts with the Cedibets smart contract through several custom hooks:
+The frontend interacts with prediction market contracts through several custom hooks:
 
-### `useContractReads`
-- Reads user USDC balance and allowance
-- Fetches user policy IDs
-- Gets contract constants (premium/payout amounts)
+### `usePredictionMarkets`
+- Loads markets, prices, and states
+- Filters (open, resolved, user positions)
 
-### `useContractWrites`
-- Handles USDC approval transactions
-- Executes policy purchases
-- Manages transaction states and errors
+### `usePredictionTrading`
+- Approve USDC, buy/sell tokens, add liquidity, redeem
+- Transaction state and error handling
 
-### `usePurchasePolicy`
-- Combines approval and purchase into one flow
-- Handles the complete purchase process
-- Provides step-by-step transaction feedback
+### `usePrivySafe`
+- Robust Privy usage wrapper that avoids provider timing issues
 
 ## 🎨 Design System
 
